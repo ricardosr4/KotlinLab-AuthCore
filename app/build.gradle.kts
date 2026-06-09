@@ -4,17 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.kotlinlabauthcore"
-    compileSdk {
-        version = release(36) {
-            minorApiLevel = 1
-        }
-    }
+    namespace = "com.kotlinlab.authcore"
+    compileSdk = 37
 
     defaultConfig {
-        applicationId = "com.example.kotlinlabauthcore"
-        minSdk = 35
-        targetSdk = 36
+        applicationId = "com.kotlinlab.authcore"
+        minSdk = 26
+        targetSdk = 37
         versionCode = 1
         versionName = "1.0"
 

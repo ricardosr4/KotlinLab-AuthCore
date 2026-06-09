@@ -1,4 +1,4 @@
-package com.example.kotlinlabauthcore
+package com.kotlinlab.authcore
 
 import org.junit.Test
 
