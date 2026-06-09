@@ -1,10 +1,10 @@
-package com.example.kotlinlabauthcore
+package com.kotlinlab.authcore
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import com.example.kotlinlabauthcore.ui.theme.KotlinLabAuthCoreTheme
+import com.kotlinlab.authcore.ui.theme.KotlinLabAuthCoreTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,4 +17,3 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-

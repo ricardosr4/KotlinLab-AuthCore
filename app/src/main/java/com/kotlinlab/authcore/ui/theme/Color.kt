@@ -1,4 +1,4 @@
-package com.example.kotlinlabauthcore.ui.theme
+package com.kotlinlab.authcore.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

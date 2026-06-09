@@ -1,4 +1,4 @@
-package com.example.kotlinlabauthcore.ui.theme
+package com.kotlinlab.authcore.ui.theme
 
 import android.app.Activity
 import android.os.Build

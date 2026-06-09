@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.kotlinlabauthcore"
+    namespace = "com.kotlinlab.authcore"
     compileSdk = 37
 
     defaultConfig {
-        applicationId = "com.example.kotlinlabauthcore"
+        applicationId = "com.kotlinlab.authcore"
         minSdk = 26
         targetSdk = 37
         versionCode = 1
