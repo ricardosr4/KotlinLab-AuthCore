@@ -20,6 +20,14 @@ gradlePlugin {
             id = "kotlinlab.android.compose"
             implementationClass = "KotlinLabAndroidComposePlugin"
         }
+        register("androidLibrary") {
+            id = "kotlinlab.android.library"
+            implementationClass = "KotlinLabAndroidLibraryPlugin"
+        }
+        register("jvmLibrary") {
+            id = "kotlinlab.jvm.library"
+            implementationClass = "KotlinLabJvmLibraryPlugin"
+        }
     }
 }
 

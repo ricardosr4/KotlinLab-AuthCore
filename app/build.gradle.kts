@@ -23,6 +23,10 @@ android {
 }
 
 dependencies {
+    implementation(project(":core:navigation"))
+    implementation(project(":data:auth"))
+    implementation(project(":feature:auth"))
+    implementation(project(":feature:home"))
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
