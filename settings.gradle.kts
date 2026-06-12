@@ -26,4 +26,11 @@ dependencyResolutionManagement {
 
 rootProject.name = "KotlinLab AuthCore"
 include(":app")
- 
+include(":core:common")
+include(":core:designsystem")
+include(":core:navigation")
+include(":core:testing")
+include(":domain:auth")
+include(":data:auth")
+include(":feature:auth")
+include(":feature:home")
