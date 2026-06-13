@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "23872561318",
+    "project_id": "kotlinlab-authcore",
+    "storage_bucket": "kotlinlab-authcore.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23872561318:android:4bd674ee91fb1c238fd467",
+        "android_client_info": {
+          "package_name": "com.kotlinlab.authcore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj8r9a0W1GkTgf0Goj_61hLAwbSEYVJxY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
