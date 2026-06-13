@@ -1,0 +1,16 @@
+<resources>
+    <string name="login_title">Bienvenido</string>
+    <string name="login_subtitle">Inicia sesión para continuar</string>
+    <string name="login_email_label">Correo electrónico</string>
+    <string name="login_password_label">Contraseña</string>
+    <string name="login_show_password">Mostrar</string>
+    <string name="login_hide_password">Ocultar</string>
+    <string name="login_sign_in">Iniciar sesión</string>
+    <string name="login_forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="login_create_account">Crear una cuenta</string>
+    <string name="login_error_invalid_credentials">El correo o la contraseña no son correctos.</string>
+    <string name="login_error_invalid_email">Ingresa un correo electrónico válido.</string>
+    <string name="login_error_user_not_found">No encontramos una cuenta asociada a este correo.</string>
+    <string name="login_error_network">No pudimos conectarnos. Revisa tu conexión e inténtalo nuevamente.</string>
+    <string name="login_error_unknown">Ocurrió un error inesperado. Inténtalo nuevamente.</string>
+</resources>
