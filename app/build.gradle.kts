@@ -1,6 +1,8 @@
 plugins {
     id("kotlinlab.android.application")
     id("kotlinlab.android.compose")
+    id("kotlinlab.android.hilt")
+    alias(libs.plugins.google.services)
 }
 
 android {

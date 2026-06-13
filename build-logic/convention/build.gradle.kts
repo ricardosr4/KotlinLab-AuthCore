@@ -28,10 +28,15 @@ gradlePlugin {
             id = "kotlinlab.jvm.library"
             implementationClass = "KotlinLabJvmLibraryPlugin"
         }
+        register("androidHilt") {
+            id = "kotlinlab.android.hilt"
+            implementationClass = "KotlinLabAndroidHiltPlugin"
+        }
     }
 }
 
 dependencies {
     compileOnly(libs.android.gradle.plugin)
     compileOnly(libs.kotlin.gradle.plugin)
+    implementation(libs.hilt.gradle.plugin)
 }
