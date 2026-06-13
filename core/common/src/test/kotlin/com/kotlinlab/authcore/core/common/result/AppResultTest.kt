@@ -1,6 +1,6 @@
 package com.kotlinlab.authcore.core.common.result
 
-import com.kotlinlab.authcore.core.common.error.AppError
+import com.kotlinlab.authcore.core.common.error.CommonError
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
@@ -15,8 +15,8 @@ class AppResultTest {
 
     @Test
     fun `failure contains the expected error`() {
-        val result = AppResult.Failure(AppError.Network)
+        val result = AppResult.Failure(CommonError.Network)
 
-        assertEquals(AppError.Network, result.error)
+        assertEquals(CommonError.Network, result.error)
     }
 }
