@@ -4,9 +4,9 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import com.kotlinlab.authcore.feature.auth.login.LoginScreen
 import com.kotlinlab.authcore.ui.theme.KotlinLabAuthCoreTheme
 import dagger.hilt.android.AndroidEntryPoint
-import org.w3c.dom.Text
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
@@ -15,7 +15,11 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             KotlinLabAuthCoreTheme {
-
+                LoginScreen(
+                    onNavigateToHome = {},
+                    onNavigateToPasswordRecovery = {},
+                    onNavigateToRegistration = {},
+                )
             }
         }
     }
